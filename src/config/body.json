@@ -28,8 +28,23 @@
     {
       "id": 3,
       "website": "instagram",
-      "link": "https://www.linkedin.com/in/jatin-assudaney/",
+      "link": "https://www.instagram.com/hireme_jatinassudaney/",
       "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111491.svg"
+    }
+  ],
+  "email": "hire.jatinassudaney@gmail.com",
+  "footer_languages": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "icon_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+      "icon_width": "32px"
+    },
+    {
+      "id": 2,
+      "name": "Redux",
+      "icon_src": "https://assets.stickpng.com/thumbs/5848309bcef1014c0b5e4a9a.png",
+      "icon_width": "20px"
     }
   ]
 }
