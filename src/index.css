@@ -5,17 +5,14 @@
   --background: #1e1e1e;
   --subtle-background: #333333;
   --text-color: #cccccc;
+  font-size: 16px;
 }
 
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1e1e1e;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
