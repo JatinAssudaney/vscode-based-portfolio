@@ -1,5 +1,5 @@
 import React from "react";
-import body from "../../config/body.json";
+import { header_heading } from "../../config/body.json";
 import "./Header.css";
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
         <div className="header__icons--yellow"></div>
         <div className="header__icons--green"></div>
       </div>
-      <div className="header__heading">{body.header__heading}</div>
+      <div className="header__heading">{header_heading}</div>
     </div>
   );
 }

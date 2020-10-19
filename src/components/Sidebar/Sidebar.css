@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 4%;
+  height: 90.4vh;
+  background-color: var(--subtle-background);
+  padding: 4px 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar__info,
+.sidebar__profiles {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__user--icons,
+.sidebar__profiles--icons {
+  width: 24px;
+  height: auto;
+  display: flex;
+  margin: 16px 0;
+  flex-direction: column;
+  filter: invert(100%) sepia(0%) saturate(16%) hue-rotate(186deg)
+    brightness(86%) contrast(84%);
+}
+
+.sidebar__user--icons:hover,
+.sidebar__profiles--icons:hover {
+  filter: invert(100%) sepia(39%) saturate(0%) hue-rotate(297deg)
+    brightness(109%) contrast(101%);
+}

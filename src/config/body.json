@@ -1,3 +1,35 @@
 {
-  "header__heading": "<Jatin Assudaney />;"
+  "header_heading": "FULL STACK WEB DEVELOPER - Jatin Assudaney",
+  "user_info": [
+    {
+      "id": 1,
+      "title": "Projects",
+      "icon": "https://www.flaticon.com/svg/static/icons/svg/3597/3597065.svg"
+    },
+    {
+      "id": 2,
+      "title": "About Me",
+      "icon": "https://www.flaticon.com/svg/static/icons/svg/1827/1827836.svg"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "website": "github",
+      "link": "https://github.com/JatinAssudaney",
+      "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
+    },
+    {
+      "id": 2,
+      "website": "linkedin",
+      "link": "https://www.linkedin.com/in/jatin-assudaney/",
+      "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111532.svg"
+    },
+    {
+      "id": 3,
+      "website": "instagram",
+      "link": "https://www.linkedin.com/in/jatin-assudaney/",
+      "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111491.svg"
+    }
+  ]
 }
