@@ -1,6 +1,6 @@
 .project__container {
+  width: 60%;
   display: flex;
-  flex: 0.5;
   flex-direction: column;
   margin: 24px 0;
   padding: 32px 48px;
