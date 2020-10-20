@@ -1,12 +1,20 @@
 import React from "react";
 import "./Sidebar.css";
 import { user_info, profiles } from "../../config/body.json";
+import { useDispatch } from "react-redux";
+import { selectChannel } from "../../actions";
 
 function Sidebar() {
+  const dispatch = useDispatch();
+
   const renderUserDetails = () => {
     return user_info.map((user) => {
       return (
-        <div key={user.id} className="sidebar__user">
+        <div
+          key={user.id}
+          className="sidebar__user"
+          onClick={() => dispatch(selectChannel(user))}
+        >
           <img
             className="sidebar__user--icons"
             src={user.icon}
