@@ -33,6 +33,26 @@
     }
   ],
   "email": "hire.jatinassudaney@gmail.com",
+  "projects": [
+    {
+      "id": 1,
+      "name": "webdevjourney - Blog App",
+      "logo": "https://github.com/JatinAssudaney/BlogApp/blob/master/client/public/logo-webdevjourney512.png?raw=true",
+      "technology_stack": [
+        "MongoDB",
+        "ExpressJS",
+        "NodeJS",
+        "ReactJS",
+        "Redux"
+      ],
+      "description": "webdevjourney is Google OAuth enabled blog app, supported by React-Markdown to enable rich text editor feature to easily create blogs. Users can see the live preview of the blog before it is uploaded.",
+      "project_view": {
+        "name": "GITHUB",
+        "link": "https://github.com/JatinAssudaney/BlogApp",
+        "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
+      }
+    }
+  ],
   "footer_languages": [
     {
       "id": 1,
