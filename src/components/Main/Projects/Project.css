@@ -16,8 +16,6 @@
   display: flex;
   height: 48px;
   width: auto;
-  filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(311deg)
-    brightness(105%) contrast(104%);
 }
 
 .project__title {
@@ -40,7 +38,7 @@
   background-color: var(--background);
   border: 1px solid var(--text-color);
   padding: 2px 8px;
-  margin: 0 8px;
+  margin: 4px 8px;
 }
 
 .project__view {

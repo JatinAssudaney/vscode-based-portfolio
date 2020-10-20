@@ -54,8 +54,8 @@
     },
     {
       "id": 2,
-      "name": "webdevjourney - Blog App",
-      "logo": "https://github.com/JatinAssudaney/BlogApp/blob/master/client/public/logo-webdevjourney512.png?raw=true",
+      "name": "Emaily - Automate Email for Surveys",
+      "logo": "https://github.com/JatinAssudaney/Emaily-MERN-App/blob/master/server/client/public/logo512.png?raw=true",
       "technology_stack": [
         "MongoDB",
         "ExpressJS",
@@ -63,28 +63,47 @@
         "ReactJS",
         "Redux"
       ],
-      "description": "webdevjourney is Google OAuth enabled blog app, supported by React-Markdown to enable rich text editor feature to easily create blogs. Users can see the live preview of the blog before it is uploaded.",
+      "description": "Emaily App automates the feedback from users by creating surveys and sending them via mail to the mentioned users using SendGrid. This is the final-project from Stephen Grider's \"Node with React: Full Stack Development Course on Udemy\".",
       "project_view": {
         "name": "GITHUB",
-        "link": "https://github.com/JatinAssudaney/BlogApp",
+        "link": "https://github.com/JatinAssudaney/Emaily-MERN-App",
         "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
       }
     },
     {
       "id": 3,
-      "name": "webdevjourney - Blog App",
-      "logo": "https://github.com/JatinAssudaney/BlogApp/blob/master/client/public/logo-webdevjourney512.png?raw=true",
-      "technology_stack": [
-        "MongoDB",
-        "ExpressJS",
-        "NodeJS",
-        "ReactJS",
-        "Redux"
-      ],
-      "description": "webdevjourney is Google OAuth enabled blog app, supported by React-Markdown to enable rich text editor feature to easily create blogs. Users can see the live preview of the blog before it is uploaded.",
+      "name": "discord-clone",
+      "logo": "https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png",
+      "technology_stack": ["ReactJS", "Redux"],
+      "description": "Being a avid user of discord to connect with multiple developers across the globe, this is a try to clone basic functionality of Discord App",
       "project_view": {
         "name": "GITHUB",
-        "link": "https://github.com/JatinAssudaney/BlogApp",
+        "link": "https://github.com/JatinAssudaney/Discord-Clone",
+        "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "100 Days Of Code",
+      "logo": "https://images.emojiterra.com/mozilla/512px/1f4af.png",
+      "technology_stack": [
+        "Java",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ReactJS",
+        "Redux",
+        "git",
+        "MongoDB",
+        "NodeJS",
+        "ExpressJS",
+        "Mongoose",
+        "heroku"
+      ],
+      "description": "This is not a project by itself but rather is a showcase of how I spent my pandemic time that is in learning various technologies and refreshing what all I had learned earlier.",
+      "project_view": {
+        "name": "GITHUB",
+        "link": "https://github.com/JatinAssudaney/100DaysOfCode",
         "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
       }
     }
