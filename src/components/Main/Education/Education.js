@@ -19,7 +19,7 @@ function Education() {
                 src="https://www.flaticon.com/svg/static/icons/svg/1827/1827364.svg"
                 alt="calendar"
               />
-              <div className="">{timeline}</div>
+              <div className="education__date">{timeline}</div>
             </div>
             <div className="education__result">
               <img
@@ -27,7 +27,7 @@ function Education() {
                 src="https://www.flaticon.com/svg/static/icons/svg/590/590510.svg"
                 alt="marks"
               />
-              <div className="">{marks}</div>
+              <div className="education__marks">{marks}</div>
             </div>
           </div>
         </div>

@@ -7,9 +7,10 @@
 }
 
 .skills__items {
-  margin-top: 8px;
+  margin-top: 16px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .skills__item {

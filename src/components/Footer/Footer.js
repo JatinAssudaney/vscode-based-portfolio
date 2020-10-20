@@ -24,7 +24,9 @@ function Footer() {
       <div className="footer__language">
         Made with love using {renderLanguages()}
       </div>
-      <span className="footer__email">Hire Me -&gt; {email}</span>
+      <a href={`mailto:${email}`} className="footer__email">
+        Hire Me -&gt; {email}
+      </a>
     </div>
   );
 }

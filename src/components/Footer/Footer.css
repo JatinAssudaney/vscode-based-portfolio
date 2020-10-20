@@ -31,4 +31,16 @@
 
 .footer__email {
   font-weight: medium;
+  font-family: inherit;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__email:hover {
+  transform: scale(1.05);
+}
+
+.footer__email:visited {
+  color: white;
+  text-decoration: none;
 }
