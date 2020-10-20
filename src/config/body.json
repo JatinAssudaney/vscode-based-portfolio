@@ -108,6 +108,80 @@
       }
     }
   ],
+  "about_me": {
+    "name": "Jatin Assudaney",
+    "sub_heading": "Full Stack Developer",
+    "resume_link": "https://drive.google.com/file/d/1BtlHzf4O57dl7M-cy3M9Z5EYOR_885gQ/view?usp=sharing",
+    "image": "https://avatars0.githubusercontent.com/u/53208163?s=460&u=514c956e97d133a3409ec3e61ec8f55337ef4e47&v=4",
+    "descriptions": [
+      {
+        "id": 1,
+        "item": "Hi, I'm Jatin Assudaney, a self-taught full-stack web developer from New Delhi, India. Tend to make use of modern web technologies to solve problems that function correctly."
+      },
+      {
+        "id": 2,
+        "item": "Strive to create visually appealing sites that feature user-friendly design and clear navigation."
+      },
+      {
+        "id": 3,
+        "item": "With a Bachelor's Degree in Information Technology from \"Jaypee Institute of Information Technology\", I enjoy creating websites and learn new things."
+      },
+      {
+        "id": 4,
+        "item": "I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "icon_class": "devicon-html5-plain"
+    },
+    {
+      "id": 2,
+      "name": "Javascript",
+      "icon_class": "devicon-javascript-plain"
+    },
+    {
+      "id": 3,
+      "name": "ReactJS",
+      "icon_class": "devicon-react-original"
+    },
+    {
+      "id": 4,
+      "name": "NodeJS",
+      "icon_class": "devicon-nodejs-plain"
+    },
+    {
+      "id": 5,
+      "name": "JAVA",
+      "icon_class": "devicon-java-plain"
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institute": "Jaypee Institute of Information Technology",
+      "degree": "B.Tech. in Information Technology",
+      "timeline": "2016 - 2020",
+      "marks": "CGPA: 7.6/10.0"
+    },
+    {
+      "id": 2,
+      "institute": "Summer Fields School",
+      "degree": "Class XII (Higher Senior Secondary School)",
+      "timeline": "2016",
+      "marks": "Aggregate: 88.6%"
+    },
+    {
+      "id": 3,
+      "institute": "Summer Fields School",
+      "degree": "Class X (Senior Secondary School)",
+      "timeline": "2014",
+      "marks": "CGPA: 9.2/10.0"
+    }
+  ],
   "footer_languages": [
     {
       "id": 1,

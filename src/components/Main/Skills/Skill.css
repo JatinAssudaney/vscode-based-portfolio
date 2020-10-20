@@ -1,0 +1,40 @@
+.skills__container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 48px auto;
+  align-items: center;
+}
+
+.skills__items {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__item {
+  position: relative;
+}
+
+.skills__item .skills__item-description {
+  visibility: hidden;
+  min-width: 100px;
+  background-color: var(--background);
+  text-align: center;
+  border: 1px solid var(--text-color);
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  top: 55%;
+  left: 85%;
+  margin-left: 4px;
+}
+
+.skills__item:hover .skills__item-description {
+  visibility: visible;
+}
+
+.skills__item i {
+  margin: 8px 16px;
+  font-size: 100px;
+}
