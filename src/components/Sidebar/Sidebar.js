@@ -6,12 +6,15 @@ function Sidebar() {
   const renderUserDetails = () => {
     return user_info.map((user) => {
       return (
-        <div key={user.id}>
+        <div key={user.id} className="sidebar__user">
           <img
             className="sidebar__user--icons"
             src={user.icon}
             alt={user.title}
           />
+          <span className="sidebar__user-icons-description" id={user.title}>
+            {user.title}
+          </span>
         </div>
       );
     });
