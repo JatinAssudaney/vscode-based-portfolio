@@ -1,0 +1,84 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.education__container {
+  margin-top: 48px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.education__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 24px auto;
+  padding: 32px 48px;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.education__title {
+  color: var(--call-to-action);
+}
+
+.education__details {
+  margin: 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.education__details--icons {
+  width: 20px;
+  height: auto;
+  margin-right: 12px;
+  -webkit-filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(223deg)
+    brightness(103%) contrast(107%);
+  filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(223deg)
+    brightness(103%) contrast(107%);
+}
+
+.education__timeline,
+.education__result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.education__date,
+.education__marks {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .education__container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .education__container {
+    width: 90%;
+  }
+}

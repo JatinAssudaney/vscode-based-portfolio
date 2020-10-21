@@ -1,5 +1,6 @@
 import React from "react";
-import "./Sidebar.css";
+// import "./Sidebar.css";
+import "./Sidebar.prod.css";
 import { user_info, profiles } from "../../config/body.json";
 import { useDispatch } from "react-redux";
 import { selectChannel } from "../../actions";

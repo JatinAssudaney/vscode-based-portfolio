@@ -1,0 +1,171 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 70%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.about__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.about__avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  border: 4px solid var(--call-to-action);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 32px;
+}
+
+.about__avatar--border {
+  border: 4px solid var(--background);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about__image {
+  width: 100%;
+  height: auto;
+}
+
+.about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.about__welcome {
+  font-size: 1.2rem;
+}
+
+.about__heading {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: var(--call-to-action);
+  font-weight: 700;
+}
+
+.about__subHeading {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about__resume {
+  margin-top: 1rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 16px;
+  max-width: 140px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: var(--call-to-action);
+}
+
+.about__resume:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.about__icon {
+  width: 24px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(311deg)
+    brightness(105%) contrast(104%);
+  filter: invert(100%) sepia(0%) saturate(18%) hue-rotate(311deg)
+    brightness(105%) contrast(104%);
+}
+
+.about__resume-link {
+  color: white;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.about__resume-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.about__description-container {
+  line-height: 150%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 24px 0;
+  padding: 32px 48px;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.about__description {
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .about__container {
+    width: 100%;
+  }
+
+  .about__avatar {
+    width: 50%;
+  }
+
+  .about__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

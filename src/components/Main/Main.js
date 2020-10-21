@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { useSelector } from "react-redux";
-import "./Main.css";
+// import "./Main.css";
+import "./Main.prod.css";
 import Projects from "./Projects/Projects";
 import About from "./About/About";
 import Skill from "./Skills/Skill";

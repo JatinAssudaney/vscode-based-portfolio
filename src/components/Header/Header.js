@@ -1,6 +1,7 @@
 import React from "react";
 import { header_heading } from "../../config/body.json";
-import "./Header.css";
+// import "./Header.css";
+import "./Header.prod.css";
 
 function Header() {
   return (

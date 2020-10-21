@@ -1,0 +1,90 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 4%;
+  -ms-flex: 4%;
+  flex: 4%;
+  background-color: var(--subtle-background);
+  padding: 4px 8px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.sidebar__info,
+.sidebar__profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.sidebar__user--icons,
+.sidebar__profiles--icons {
+  width: 24px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-filter: invert(100%) sepia(0%) saturate(16%) hue-rotate(186deg)
+    brightness(86%) contrast(84%);
+  filter: invert(100%) sepia(0%) saturate(16%) hue-rotate(186deg)
+    brightness(86%) contrast(84%);
+}
+
+.sidebar__user--icons:hover,
+.sidebar__profiles--icons:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: invert(100%) sepia(39%) saturate(0%) hue-rotate(297deg)
+    brightness(109%) contrast(101%);
+  filter: invert(100%) sepia(39%) saturate(0%) hue-rotate(297deg)
+    brightness(109%) contrast(101%);
+}
+
+.sidebar__user {
+  position: relative;
+}
+
+.sidebar__user .sidebar__user-icons-description {
+  visibility: hidden;
+  min-width: 100px;
+  background-color: var(--background);
+  text-align: center;
+  border: 1px solid var(--text-color);
+  padding: 2px 0;
+  position: absolute;
+  z-index: 1;
+  top: 55%;
+  left: 105%;
+  margin-left: 4px;
+}
+
+.sidebar__user:hover .sidebar__user-icons-description {
+  visibility: visible;
+}

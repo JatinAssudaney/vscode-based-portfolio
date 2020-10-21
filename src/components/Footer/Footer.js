@@ -1,5 +1,6 @@
 import React from "react";
-import "./Footer.css";
+// import "./Footer.css";
+import "./Footer.prod.css";
 import { email, footer_languages } from "../../config/body.json";
 function Footer() {
   const renderLanguages = () => {

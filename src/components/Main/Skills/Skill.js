@@ -1,6 +1,7 @@
 import React from "react";
 import { skills } from "../../../config/body.json";
-import "./Skill.css";
+// import "./Skill.css";
+import "./Skill.prod.css";
 
 function Skill() {
   const renderSkills = () => {

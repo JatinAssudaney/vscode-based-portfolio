@@ -1,5 +1,6 @@
 import React from "react";
-import "./Education.css";
+// import "./Education.css";
+import "./Education.prod.css";
 import { education } from "../../../config/body.json";
 
 function Education() {
