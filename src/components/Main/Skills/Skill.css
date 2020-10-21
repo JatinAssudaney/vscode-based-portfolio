@@ -1,4 +1,5 @@
 .skills__container {
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -42,5 +43,11 @@
 @media (max-width: 768px) {
   .skills__container {
     width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .skills__container {
+    width: 90%;
   }
 }

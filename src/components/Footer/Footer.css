@@ -29,7 +29,6 @@
 }
 
 .footer__email {
-  font-weight: medium;
   font-family: inherit;
   text-decoration: none;
   color: white;
@@ -42,4 +41,14 @@
 .footer__email:visited {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    justify-content: center;
+  }
+
+  .footer__language {
+    display: none;
+  }
 }

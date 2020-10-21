@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 70%;
   align-items: center;
+  margin-top: 48px;
 }
 
 .about__header {

@@ -42,3 +42,9 @@
   justify-content: center;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .header__heading {
+    font-size: 0.8rem;
+  }
+}

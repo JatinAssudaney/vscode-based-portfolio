@@ -1,4 +1,5 @@
 .education__container {
+  margin-top: 48px;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -19,6 +20,7 @@
 .education__details {
   margin: 16px 0;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -43,5 +45,11 @@
 @media (max-width: 768px) {
   .education__container {
     width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .education__container {
+    width: 90%;
   }
 }
