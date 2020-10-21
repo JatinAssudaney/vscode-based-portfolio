@@ -101,3 +101,17 @@
 .about__description {
   margin-top: 12px;
 }
+
+@media (max-width: 768px) {
+  .about__container {
+    width: 100%;
+  }
+
+  .about__avatar {
+    width: 50%;
+  }
+
+  .about__header {
+    flex-direction: column;
+  }
+}

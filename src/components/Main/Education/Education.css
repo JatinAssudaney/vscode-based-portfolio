@@ -1,5 +1,5 @@
 .education__container {
-  width: 60%;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -38,4 +38,10 @@
 .education__date,
 .education__marks {
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .education__container {
+    width: 80%;
+  }
 }

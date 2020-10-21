@@ -75,3 +75,9 @@
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .project__container {
+    width: 80%;
+  }
+}
