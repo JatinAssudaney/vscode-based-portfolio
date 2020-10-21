@@ -68,11 +68,17 @@
 }
 
 .project__link {
+  color: white;
   text-decoration: none;
 }
 
 .project__link:visited {
-  color: white;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project__link:active {
+  color: #ffffff;
   text-decoration: none;
 }
 
