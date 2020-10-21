@@ -1,15 +1,14 @@
 .footer {
+  height: 3vh;
   position: relative;
   z-index: 100;
   bottom: 0%;
   background-color: var(--call-to-action);
   display: flex;
   flex-direction: row;
-  flex: 1;
   padding: 4px 32px;
   align-items: center;
   justify-content: space-between;
-  height: 3vh;
   color: white;
 }
 
