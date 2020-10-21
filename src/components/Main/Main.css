@@ -1,9 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  flex: 96%;
   height: 91vh;
   overflow: scroll;
+  align-items: center;
 }
 
 .main::-webkit-scrollbar {

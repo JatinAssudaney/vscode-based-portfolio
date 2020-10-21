@@ -1,19 +1,10 @@
 .education__container {
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  margin: 48px auto;
-  align-items: center;
-  justify-content: center;
 }
 
-/* .education__items {
-  display: flex;
-  flex-direction: column;
-} */
-
 .education__item {
-  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 24px auto;
