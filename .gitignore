@@ -3,6 +3,17 @@
 .firebaserc
 firebase.json
 
+# CSS Files
+Footer.css
+Header.css
+Main.css
+About.css
+Education.css
+Skill.css
+Sidebar.css
+App.css
+index.css
+
 # dependencies
 /node_modules
 /.pnp
