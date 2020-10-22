@@ -1,4 +1,4 @@
-# Fully Customizable VSCode themed Portfolio
+# Fully Customizable - VSCode themed Responsive Portfolio
 
 [App Demo](https://jatin-assudaney.web.app/)
 
