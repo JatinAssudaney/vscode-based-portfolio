@@ -13,6 +13,14 @@
 6. View the project by running following command in the terminal
    > npm start
 
+# Updating Config Helper
+
+![home-page-helper](https://github.com/JatinAssudaney/portfolio/blob/master/assets/home_helper.png?raw=true)
+
+![skills-page-helper](https://github.com/JatinAssudaney/portfolio/blob/master/assets/skills_helper.png?raw=true)
+
+![projects-page-helper](https://github.com/JatinAssudaney/portfolio/blob/master/assets/projects_helper.png?raw=true)
+
 ## Screenshots
 
 ![home-page](https://github.com/JatinAssudaney/portfolio/blob/master/assets/home.JPG?raw=true)
