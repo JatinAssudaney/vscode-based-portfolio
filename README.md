@@ -13,7 +13,7 @@
 6. View the project by running following command in the terminal
    > npm start
 
-# Updating Config Helper
+## Updating Config Helper
 
 ![home-page-helper](https://github.com/JatinAssudaney/portfolio/blob/master/assets/home_helper.png?raw=true)
 
