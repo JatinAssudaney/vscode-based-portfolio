@@ -72,18 +72,6 @@
     },
     {
       "id": 3,
-      "name": "discord-clone",
-      "logo": "https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png",
-      "technology_stack": ["ReactJS", "Redux"],
-      "description": "Being a avid user of discord to connect with multiple developers across the globe, this is a try to clone basic functionality of Discord App",
-      "project_view": {
-        "name": "GITHUB",
-        "link": "https://github.com/JatinAssudaney/Discord-Clone",
-        "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
-      }
-    },
-    {
-      "id": 4,
       "name": "100 Days Of Code",
       "logo": "https://images.emojiterra.com/mozilla/512px/1f4af.png",
       "technology_stack": [
@@ -104,6 +92,30 @@
       "project_view": {
         "name": "GITHUB",
         "link": "https://github.com/JatinAssudaney/100DaysOfCode",
+        "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "amazon-clone",
+      "logo": "http://pngimg.com/uploads/amazon/amazon_PNG11.png",
+      "technology_stack": ["ReactJS", "Context API", "Firebase"],
+      "description": "This is a amazon-clone app integrated with stripe payment options to buy products",
+      "project_view": {
+        "name": "GITHUB",
+        "link": "https://github.com/JatinAssudaney/Amazon-Clone",
+        "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
+      }
+    },
+    {
+      "id": 5,
+      "name": "discord-clone",
+      "logo": "https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png",
+      "technology_stack": ["ReactJS", "Redux"],
+      "description": "Being a avid user of discord to connect with multiple developers across the globe, this is a try to clone basic functionality of Discord App",
+      "project_view": {
+        "name": "GITHUB",
+        "link": "https://github.com/JatinAssudaney/Discord-Clone",
         "icon_src": "https://www.flaticon.com/svg/static/icons/svg/2111/2111432.svg"
       }
     }

@@ -35,7 +35,7 @@ function Project({
           src={projectView.icon_src}
           alt={projectView.name}
         />
-        <a className="project__link" href={projectView.link}>
+        <a className="project__link" href={projectView.link} target="_blank">
           View on {projectView.name}
         </a>
       </div>
