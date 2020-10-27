@@ -1,23 +1,6 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .about__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 70%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 48px;
+  width: 80%;
+  margin-top: 3rem;
 }
 
 .about__header {
@@ -37,6 +20,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 25%;
+  height: auto;
   border: 4px solid var(--call-to-action);
   border-radius: 50%;
   overflow: hidden;
@@ -51,20 +35,7 @@
 
 .about__image {
   width: 100%;
-  height: auto;
-}
-
-.about__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  height: 100%;
 }
 
 .about__welcome {
@@ -91,10 +62,14 @@
   display: -ms-flexbox;
   display: flex;
   padding: 8px 16px;
-  max-width: 140px;
+  width: 140px;
+  height: 25px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   background-color: var(--call-to-action);
 }
 
@@ -107,7 +82,7 @@
 
 .about__icon {
   width: 24px;
-  height: auto;
+  height: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,14 +109,6 @@
 
 .about__description-container {
   line-height: 150%;
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
   margin: 24px 0;
   padding: 32px 48px;
   -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
@@ -153,13 +120,11 @@
   margin-top: 12px;
 }
 
-@media (max-width: 768px) {
-  .about__container {
-    width: 100%;
-  }
-
+@media only screen and (max-width: 768px) {
   .about__avatar {
+    margin: 0;
     width: 50%;
+    height: auto;
   }
 
   .about__header {

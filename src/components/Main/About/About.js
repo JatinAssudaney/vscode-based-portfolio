@@ -1,6 +1,6 @@
 import React from "react";
-import "./About.css";
-// import "./About.prod.css";
+// import "./About.css";
+import "./About.prod.css";
 import { about_me } from "../../../config/body.json";
 
 function About() {
