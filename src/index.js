@@ -4,6 +4,7 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 
 // import "./index.css";
+import "normalize.css";
 import "./index.prod.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
