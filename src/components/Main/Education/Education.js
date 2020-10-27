@@ -15,11 +15,13 @@ function Education() {
           </div>
           <div className="education__details">
             <div className="education__timeline">
-              <img
-                className="education__details--icons"
-                src="https://www.flaticon.com/svg/static/icons/svg/1827/1827364.svg"
-                alt="calendar"
-              />
+              <div>
+                <img
+                  className="education__details--icons"
+                  src="https://www.flaticon.com/svg/static/icons/svg/1827/1827364.svg"
+                  alt="calendar"
+                />
+              </div>
               <div className="education__date">{timeline}</div>
             </div>
             <div className="education__result">

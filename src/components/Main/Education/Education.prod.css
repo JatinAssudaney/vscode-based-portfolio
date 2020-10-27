@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .education__container {
   margin-top: 48px;
   width: 70%;
@@ -51,7 +44,7 @@
 
 .education__details--icons {
   width: 20px;
-  height: auto;
+  height: 20px;
   margin-right: 12px;
   -webkit-filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(223deg)
     brightness(103%) contrast(107%);
@@ -71,13 +64,13 @@
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .education__container {
     width: 80%;
   }
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   .education__container {
     width: 90%;
   }
